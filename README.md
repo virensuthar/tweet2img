@@ -6,7 +6,7 @@
 
 ### Demo👇🏻
 
-<img src="./client/src/assets/tweetimg.gif" alt="tweet2img gif"  >
+<img src="client/src/assets/tweetimg.gif" alt="tweet2img gif"  >
 
 <br />
 <br />
