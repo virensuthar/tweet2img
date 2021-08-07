@@ -22,7 +22,7 @@ const TweetInput = () => {
 		})
 			.then((res) => res.json())
 			.then((data) => {
-				setTweetData(new Array(data));
+				setTweetData([data]);
 			})
 			.catch((err) => console.log(err));
 

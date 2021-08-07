@@ -1,6 +1,5 @@
 import React, { useContext, useState } from "react";
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
-import axios from "axios";
 import { ImageContext } from "../contexts/ImageContext";
 
 const BackgroundImg = () => {
@@ -27,9 +26,12 @@ const BackgroundImg = () => {
 			"&client_id=" +
 			clientId;
 
-		axios.get(url).then((response) => {
-			setResult(response.data.results);
-		});
+		fetch(url)
+			.then((res) => res.json())
+			.then((data) => {
+				setResult(data.results);
+			})
+			.catch((err) => console.log(err));
 	};
 
 	const getFilePath = (e) => {
