@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const OAuth2 = require("OAuth").OAuth2;
+const OAuth2 = require("oauth").OAuth2;
 const https = require("https");
 
 const apiKey = process.env.API_KEY;
