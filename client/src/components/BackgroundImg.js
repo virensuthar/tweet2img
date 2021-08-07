@@ -10,7 +10,7 @@ const BackgroundImg = () => {
 
 	const clientId = process.env.REACT_APP_UNSPLASH_KEY;
 
-	const [photo, setPhoto] = useState("");
+	const [photo, setPhoto] = useState([]);
 	const [result, setResult] = useState([]);
 
 	const handleChange = (e) => {
