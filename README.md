@@ -1,7 +1,9 @@
 # Tweet2Img
 
 ### Convert your tweet into image 🐤&#8594;🖼️
+
 ### visit here &#8594; [http://tweettoimg.herokuapp.com](http://tweettoimg.herokuapp.com)
+
 <br />
 
 ### Demo👇🏻
@@ -37,7 +39,7 @@
 
 ---
 
-To start this porject clone the repo or download zip
+To start this project clone the repo or download zip
 
 ```shell
 
