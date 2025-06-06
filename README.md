@@ -3,6 +3,7 @@
 ### Convert your tweet into image 🐤&#8594;🖼️
 
 ### visit here &#8594; [http://tweettoimg.herokuapp.com](http://tweettoimg.herokuapp.com)
+(The web app is not accessible as of now due to the free Twitter API moving to a paid program)
 
 <br />
 
@@ -15,10 +16,10 @@
 
 ## ⚡ Features
 
--  🛠 create good post from your tweet in one click
--  🌈 set background from your local files, links or directly from unsplash, and choose different colors
--  🌓 set light and dark mode to your tweet
--  ⚙️ change opacity and border radius of tweet
+-  🛠 Create a good post from your tweet in one click
+-  🌈 Set background from your local files, links or directly from Unsplash, and choose different colours
+-  🌓 Set light and dark mode for your tweet
+-  ⚙️ Change opacity and border radius of tweet
 -  💾 Download tweet image in `.png`
 
 <br/>
@@ -27,11 +28,11 @@
 
 -  ### Frontend
 
-   React with ContextAPI
+   React with Context API
 
 -  ### Backend
 
-   Nodejs (express)
+   Node.js (Express)
 
 -  ### services
    -  Twitter API for fetching tweet data
@@ -39,7 +40,7 @@
 
 ---
 
-To start this project clone the repo or download zip
+To start this project, clone the repo or download the  zip
 
 ```shell
 
@@ -51,13 +52,13 @@ npm install
 npm start
 ```
 
-> Add .env file in root folder and client folder and add your credential
+> Add .env file in the root folder and the client folder, and add your credentials
 
 <br />
 
 ## Upcoming features
 
--  adding support for tweets containing media (currently only support text based tweet)
+-  adding support for tweets containing media (currently only supports text-based tweets)
 -  More custom theme options and templates
--  high quality image download
--  directly post or schedule to instagram from webapp
+-  high-quality image download
+-  directly post or schedule to Instagram from the web app
